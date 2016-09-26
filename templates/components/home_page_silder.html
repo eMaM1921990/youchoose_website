@@ -1,0 +1,56 @@
+{% load staticfiles %}
+{% load i18n %}
+<div class="videobanner">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="videomaincont">
+                    <a href="VideoPage.html" class="biglinkimg"><img src="{% static 'images/videos/mainbgvideo.jpg' %}"/></a>
+
+                    <div class="container contvidemidd">
+                        <div class="iconvidecont">
+                            <a href="VideoPage.html">
+                                <div class="icon videoicon"></div>
+                            </a>
+                            <a href="#myCarousel" role="button" data-slide="prev">
+                                <div class="icon next"></div>
+                            </a>
+                            <a href="#myCarousel" role="button" data-slide="next">
+                                <div class="icon prev"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="videomaincont">
+                    <a href="VideoPage.html" class="biglinkimg"><img src="{% static 'images/videos/maxresdefault.jpg' %}"/></a>
+
+                    <div class="container contvidemidd">
+                        <div class="iconvidecont">
+                            <a href="VideoPage.html">
+                                <div class="icon videoicon"></div>
+                            </a>
+                            <a href="#myCarousel" role="button" data-slide="prev">
+                                <div class="icon next"></div>
+                            </a>
+                            <a href="#myCarousel" role="button" data-slide="next">
+                                <div class="icon prev"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container slogansocialcont">
+        <div class="slogan"><img src="{% static 'images/slogan.jpg' %}"></div>
+        <ul class="socialiconorange">
+            <li><a class="icon vimeo" href="#"></a></li>
+            <li><a class="icon fbook" href="#"></a></li>
+            <li><a class="icon twitter" href="#"></a></li>
+            <li><a class="icon picon" href="#"></a></li>
+            <li><a class="icon lnkedin" href="#"></a></li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,223 @@
+@font-face {
+	font-family: 'MontserratBlack';
+	src: local('MontserratBlack'), url('Font/Montserrat-Black.otf') format('truetype');
+}
+@font-face {
+	font-family: 'MontserratBold';
+	src: local('MontserratBold'), url('Font/Montserrat-Bold.otf') format('truetype');
+}
+@font-face {
+	font-family: 'MontserratExtraBold';
+	src: local('MontserratExtraBold'), url('Font/Montserrat-ExtraBold.otf') format('truetype');
+}
+@font-face {
+	font-family: 'MontserratHairline';
+	src: local('MontserratHairline'), url('Font/Montserrat-Hairline.otf') format('truetype');
+}
+@font-face {
+	font-family: 'MontserratLight';
+	src: local('MontserratLight'), url('Font/Montserrat-Light.otf') format('truetype');
+}
+@font-face {
+	font-family: 'MontserratRegular';
+	src: local('MontserratRegular'), url('Font/Montserrat-Regular.otf') format('truetype');
+}
+@font-face {
+	font-family: 'MontserratSemiBold';
+	src: local('MontserratSemiBold'), url('Font/Montserrat-SemiBold.otf') format('truetype');
+}
+@font-face {
+	font-family: 'MontserratUltraLight';
+	src: local('MontserratUltraLight'), url('Font/Montserrat-UltraLight.otf') format('truetype');
+}
+body{font-family: arial,sans-serif,helvetica !important;background-color: #000}
+p{margin: 0}
+ul{ list-style: outside none none;
+    padding: 0;}
+a,a:focus,a:active{text-decoration: none;outline: none;}
+.icon{background-image: url("../images/icons.png");background-repeat: no-repeat;}
+/****Header ==== bootstrap custom header style******/
+header{background: #000}
+header .navbar-default .navbar-nav li a{color: #ddd;font-family: 'MontserratBold';font-size: 13px;padding: 12px;}
+header .navbar-default .navbar-nav li a:hover,header .navbar-default .navbar-nav li a:focus{color: #fff}
+.navbar{margin-bottom: 0}
+.navbar-default {
+    background-color: #000;
+    border-color: #000;padding: 10px 0 6px;}
+.navbar-brand{padding: 0}
+header .lastone{margin-left: 70px;}
+header .navbar-default .navbar-nav li.lastone a{background-position: 99px -588px;font-family: "MontserratRegular";padding-right: 23px;}
+/**Home**/
+.videomaincont{ max-width: 2000px;position: relative;}
+.videomaincont a.biglinkimg{display: block;
+    left: 0;
+    max-width: 100%;
+    position: absolute;}
+.videomaincont img{max-width: 100%;}
+.videobanner .carousel-inner{height: 475px;}
+.contvidemidd .iconvidecont{position: relative;top: 230px;}
+.videomaincont .icon.videoicon{background-position:1px 1px;width:65px;height: 65px;left: 52%;position: absolute;}
+.videomaincont .icon.next{position: absolute;cursor:pointer;
+    right: 0;background-position: 1px -165px;
+    height: 41px;
+    width: 36px;}
+.videomaincont .icon.prev{ left: 0;cursor:pointer;
+    position: absolute;background-position: 1px -99px;
+    height: 41px;
+    width: 36px;}
+.slogansocialcont{position: relative}
+.slogan{ background: #fff none repeat scroll 0 0;
+    padding: 40px;
+    position: absolute;
+    top: -115px;
+    width: 500px;}
+.socialiconorange li a{
+    display: block;
+    height: 22px;
+    width: 22px;}
+.videobanner{padding-bottom: 65px}
+.socialiconorange{background-color: #ff3300;overflow: hidden;float: right;padding: 20px;}
+.socialiconorange li {float: left;margin-right: 10px;}
+.socialiconorange li .picon{background-position: -2px -413px;}
+.socialiconorange li .fbook{background-position:-2px -487px;}
+.socialiconorange li .twitter{background-position:-2px -524px;}
+.socialiconorange li .vimeo{background-position:-2px -559px	;}
+.socialiconorange li .lnkedin{background-position:-2px -449px;}
+.feauredvideos{padding-bottom: 35px}
+.videoslist h2{color: #fff;font-family: 'MontserratBold';font-size: 16px;text-transform: uppercase}
+.videoslist ul{overflow: hidden}
+.videoslist li{position: relative;margin:0 15px 15px 0;}
+.feauredvideos li img{ height: 210px;
+    width: 360px;}
+.videoslist li .videomaincont .icon.videoicon{left: 43%;
+    top:66px;}
+.captionoverlay{background-color: rgba(0,0,0,0.8);color: #fff;font-size: 12px;font-family: 'MontserratBold';bottom: 0;padding: 5px;position: absolute;right: 0}
+.latestadded{background-color: #141414;padding-bottom: 30px;}
+.latestadded  li{margin-right: 10px}
+.latestadded  li img{ height: 137px;
+    width: 215px;}
+.videoslist li .videomaincont .icon.videoicon.small{background-position: -3px -350px;
+    height: 45px;
+    left: 84px;
+    top: 44px;
+    width: 45px;}
+/*****Footer*****/
+.footer{padding: 10px 0}
+.inputscontfooter{padding-bottom: 20px;border-bottom: 2px solid #141414}
+.footer h3{color: #616161;font-family: 'MontserratRegular';
+    font-size: 14px;
+    text-transform: uppercase;}
+.footer .colfooter li{width: 210px;}
+.footer .colfooter li a{color: #fff;font-family: 'MontserratRegular';
+    font-size: 13px;}
+.footertxt{background-color: #ff3300;font-family: 'MontserratRegular';
+    border: 1px solid transparent;
+    color: #fff;
+    float: left;
+    font-size: 11px;
+    padding: 20px 19px;margin-right:25px;
+    text-transform: uppercase;
+    width: 344px;}
+.footertxt.light{background-color: #ffa200}
+/************Videos page********/
+.loading{ background: #efefef none repeat scroll 0 0;
+    padding: 10px 0 5px;
+    text-align: center;}
+.loading p{background: rgba(0, 0, 0, 0) url("../images/loader.gif") no-repeat scroll right 0;
+    display: inline-block;
+    padding: 5px 40px 10px 0;color: #000;font-family: 'MontserratRegular';}
+.latestadded.alternate{ background-color: #000;}
+.filterbtn .btn-default {background: #000 none repeat scroll 0 0;
+    border-color: #262626;
+    border-radius: 0;-webkit-border-radius: 0;
+    font-size: 13px;
+    text-align: left;}
+.filterbtn{margin-top: 35px;}
+.filterbtn .caret{margin-left: 10px;}
+.headbanner{background-color: #141414;padding: 15px 0;margin-bottom: 25px;}
+.headbanner h1{font-size: 45px;color: #fff;font-family:'MontserratRegular'; }
+.authorby span{color: #7a7a7a;}
+.videosharesocial {padding-top: 10px;overflow: hidden}
+.videosharesocial ul{float: left;overflow: hidden}
+.videosharesocial li{float: left;margin-right: 3px;}
+.videosharesocial .shareicon{opacity:0.9;background:transparent url("../images/socialbuttons.jpg") no-repeat scroll 0 0;text-indent: 9999px;overflow: hidden;height: 45px;display: block}
+.videosharesocial .shareicon:hover{opacity: 1}
+.videosharesocial .shareicon.fb{background-position: 0 0;width: 102px;}
+.videosharesocial .shareicon.twitter{background-position:-107px 0;width: 90px;}
+.videosharesocial .shareicon.stubm{background-position:-198px 0;width: 123px;}
+.videosharesocial .shareicon.pin{background-position:-323px 0;width: 100px;}
+.videosharesocial .shareicon.more{background-position: -426px 0;width: 80px;}
+.videotagmain{color: #474747;font-family:'MontserratRegular';font-size: 13px;float: right}
+.videomaincontent .description{border-top: 1px solid #141414;border-bottom: 1px solid #141414;margin-bottom: 5px;}
+.videomaincontent .description p{color: #fff;font-family:'MontserratRegular';font-size: 13px;margin-bottom: 20px;}
+.videomaincontent .description .leftdesc{border-right: 1px solid #141414;padding: 25px 15px 15px 0;}
+.videomaincontent .description .loveicon{color: #3b3b3b;font-size: 30px;font-family: 'MontserratBold';transition:color 0.2s ease;-webkit-transition: color 0.2s ease;background:transparent url("../images/loveicon.png") no-repeat scroll right 12px;padding-right: 25px;margin: 50px 0 0 50px;display: inline-block;}
+.videomaincontent .description .loveicon:hover,.videomaincontent .description .loveicon.active{background-position: right -46px;text-decoration: none;color: #e73b02;}
+.videocommentscontent h3{font-size: 18px;font-family: 'MontserratBold';color: #fff;margin-bottom: 30px;}
+.videocommentscontent .commentslist li{margin-bottom: 15px;border-bottom: 1px solid #141414;overflow: hidden}
+.videocommentscontent .usimagecont{background-color: #ccc;width: 60px;height: 60px;margin-right: 10px;float: left;}
+.videocommentscontent .usimagecont img{width: 60px;height: 60px;}
+.videocommentscontent .name,.videocommentscontent .date{color: #3b3b3b;font-family: 'MontserratBold';font-size: 13px;}
+.videocommentscontent .comment{font-family: 'MontserratRegular';color: #fff;font-size: 13px;word-wrap: break-word;max-width: 550px;margin: 10px 0}
+.videocommentscontent .commentxt{background: #212121;padding: 15px; width: 315px; border: 0 none;margin-bottom: 10px;display: block;color: #b2b2b2;font-family: 'MontserratBold';font-size: 14px;}
+.videocommentscontent .commentxt.comment{text-align: left}
+.videocommentscontent h4{color: #fff;font-size: 18px;font-family: 'MontserratRegular';margin-bottom: 30px;}
+.videocommentscontent .commentxt:focus{background-color: #fff;color: #212121}
+.videocommentscontent .commentbtn{width: 60px;margin-left: 10px;display: block;background: #212121 url("../images/commentIcon.png") no-repeat scroll center center;height: 250px;border: 0 none;}
+.videocommentscontent .commentbtn:hover{background-color: #ff3300}
+/****About page*****/
+.whiteboxabout{background: #fff;padding: 30px;margin-bottom: 15px;text-transform: uppercase;}
+.whiteboxabout p{font-size: 60px;color: #000;font-family: 'MontserratRegular';max-width: 454px;line-height: 65px;}
+.whiteboxabout p .orange{color: #ff3300;font-family: 'MontserratBold'}
+.aboutTopContent .desc{font-family: 'MontserratRegular';color: #fff;font-size: 13px;margin-bottom: 20px;max-width: 650px;}
+.middlebanneorange{background-color: #ee3923;padding: 25px 0}
+.middlebanneorange h2,.magicteamcontent h3{font-family: 'MontserratBold';font-size: 18px;color: #fff;text-align: center;margin: 15px 0 36px 0;text-transform: uppercase}
+.middlebanneorange li p{font-family: 'MontserratRegular';font-size: 13px;color: #fff;text-align: center;margin-bottom: 5px;}
+.middlebanneorange .iconmain{width: 65px;height: 65px;background: transparent url("../images/aboutstepsIcons.png") no-repeat scroll 0 0;margin: 0px auto 15px;}
+.middlebanneorange .iconmain.chooseicon{background-position: 0 -112px}
+.middlebanneorange .iconmain.controlicon{background-position: 0 -209px}
+.magicteamcontent .magimagecontainer{width: 220px;height: 225px;background-color: #ccc;}
+.magicteamcontent .magimagecontainer img{width: 220px;height: 225px;}
+.magicteamcontent li{margin-right: 8px;text-align: center;width: 220px;}
+.magicteamcontent .username{font-family: 'MontserratBold';font-size: 13px;color: #fff;margin-top: 10px;}
+.magicteamcontent .title{font-family: 'MontserratRegular';font-size: 13px;color: #3b3b3b;}
+/********Food Channel page********/
+.foodchooseitem{background: url("../images/foodchannel/fridgbackg.png") 0 0 repeat transparent;min-height: 350px;-webkit-border-radius: 10px;border-radius: 10px;-webkit-box-shadow: 0 0 3px rgba(255,255,255,0.8);box-shadow: 0 0 3px rgba(255,255,255,0.8);}
+.videoslist .foodchooseitem li{margin: 0 0 15px 10px}
+.videoslist .foodchooseitem li .btn{ background: url("../images/foodchannel/buttons.png") 0px -98px no-repeat;
+    border: 0 none;
+    box-shadow: 0 0 0;
+    width: 60px;
+    height: 55px;}
+.videoslist .foodchooseitem li .btn.active{ background: url("../images/foodchannel/buttons.png") 0px 0 no-repeat;}
+.foodchooseitem li .imgcontainer{height: 210px;text-align: center;line-height: 210px;}
+.foodchooseitem li .buttoncontainer{text-align: center;}
+.watchbtn{ background: url("../images/foodchannel/watchbtn.png") 0px 0 no-repeat;overflow: hidden;text-indent:-9999px;width: 307px;height: 105px;padding: 0;border: 0 none;opacity: 0.7;}
+.watchbtn:hover{opacity:1;}
+.chooseoverlay{position: absolute;background-color:rgba(126,126,126,0.8);width: 100%;left:0;top:0}
+.videomaincontent .videobase{position: relative}
+.chooseoverlay .imgchoice{float: left;}
+.chooseoverlay .details{float: left;color: #fff;max-width: 200px;}
+.chooseoverlay .details h3{font-family: 'MontserratRegular';font-size: 205px;
+    line-height: 168px;}
+.chooseoverlay .details p{font-family: 'MontserratRegular';font-size:18px;margin-left: 5px;text-transform: uppercase}
+.chooseoverlay .secondchoice.choice .details{margin-top: 25%}
+.chooseoverlay .choice {
+    width: 33.3%;
+}
+.choicetwo.chooseoverlay{    height: 515px;
+    padding-top: 130px;}
+.choicetwo.chooseoverlay .imgchoice {
+    -webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.9);box-shadow: 0px 0px 25px rgba(0,0,0,0.9);}
+.choicetwo.chooseoverlay .choice{    width: 31.3%;margin: auto}
+.choicetwo.chooseoverlay .details p{ margin-top: 60px;
+    float: left;
+    max-width: 250px;
+}
+.choicetwo.chooseoverlay .details h3{margin-left: 20px;
+    float: left;}
+.choicetwo.chooseoverlay .details,.choicetwo.chooseoverlay .secondchoice.choice .details {
+   margin-top: -233px;
+    max-width: 430px;
+}
+

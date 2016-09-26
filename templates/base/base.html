@@ -1,0 +1,23 @@
+<html>
+<head>
+    {% include 'base/baseHead.html' %}
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+<div>
+    {% include 'base/baseHeader.html' %}
+    <div class="maincontent">
+        {% block content %}
+
+        {% endblock %}
+    </div>
+</div>
+{% include 'base/baseJs.html' %}
+{% block js_src %}
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}
+</body>
+</html>
